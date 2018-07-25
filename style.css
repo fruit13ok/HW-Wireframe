@@ -1,0 +1,64 @@
+body {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+}
+header, nav, aside, section, footer {
+    background: #ebebeb;
+    text-align: center;
+}
+nav {
+    margin: 10px auto;
+}
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    margin: 10px;
+    padding: 10px;
+}
+/*
+article div {
+    margin: 10px;
+}
+*/
+/*
+article div h1, article div h2, article div h3 {
+    overflow: scroll;
+    display: inline;
+}
+*/
+
+section {
+    float: left;
+    width: 48%;
+    overflow: auto; /*make h1 and p wrap with in*/
+}
+aside {
+    float: right;
+    width: 48%;
+    height: 230px
+}
+footer {
+    margin: 10px auto;
+    margin-top: x;
+    padding: 10px;
+}
+.clearfix::after {
+    content: "";
+    display:block;
+    clear: both;
+}
+.mydiv {
+    margin: 10px auto;
+    background-color: red;
+}
